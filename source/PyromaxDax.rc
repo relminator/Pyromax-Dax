@@ -1,0 +1,5 @@
+
+#define cwicon 500
+
+cwicon ICON DISCARDABLE "res/snipe.ico"
+
