@@ -1,0 +1,1 @@
+*  Some enemies camouflage themselves in the environment.  It's hard to see them until it's too late.

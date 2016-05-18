@@ -1,0 +1,5 @@
+SpawnTileX = 4
+SpawnTileY = 16
+LevelNum = 6
+SeasonType = 1
+

@@ -1,0 +1,1 @@
+*  Be carefull when you bounce, you can't change directions while bouncing. You can slow down or speed up though. 
