@@ -1,0 +1,93 @@
+You can edit the levels in this game if you want to make your own levels.
+Levels are just simple ASCII text(/maps/level**.text)
+I used Notepad++ to make my levels
+
+
+¤ -> Player(Only used in level01)
+
+# -> Solid tile with grass on top
++ -> Solid tile
+* -> Soft brick
+- -> Semi-ice
+_ -> Full ice
+@ -> Rubber tiles
+! -> Spikes Ceiling
+^ -> Spikes Floor
+W -> Water top
+w -> water
+{ -> water with left quad
+} -> Water with Right quad
+| -> Water with left and right quad
+% -> Falling block(falls after you step on it)
+& -> Snowman in winter or a pirate sign for the rest of season
+, -> Short Vine
+( -> Short Vine with left grass
+) -> Short Vine with right grass
+; -> Long Vine
+[ -> Long Vine with left grass
+] -> Long Vine with right grass
+
+
+-PLATFORMS-
+
+* Note that numbers on the right of the platforms
+are the distance they travel before moving back.
+ie.  V4 moves 4 tiles left and 4 tiles right
+
+V -> Fast moving vertical platform (upward start)
+v -> Fast moving vertical platform (downward start)
+P -> Slow moving vertical platform (upward start)
+p -> Slow moving vertical platform (downward start)
+> -> Fast moving horizontal platform (leftward start)
+< -> Fast moving horizontal platform (rightward start)
+« -> Slow moving horizontal platform (leftward start)
+» -> Slow moving horizontal platform (rightward start)
+
+-ENEMIES-
+• -> Wallers left(stick to walls) can be destroyed with incendiaries except shots
+° -> Wallers right(stick to walls) can be destroyed with incendiaries except shots
+G -> Grog Left( can be ridden, moves left to right and gets aggressive sometimes)
+g -> Grog Right( can be ridden, moves left to right and gets aggressive sometimes)
+ô -> Wheelie left( player can bounce on top of its head)
+ö -> Wheelie right( player can bounce on top of its head)
+J -> Jumpbots left (jumps around)
+j -> Jumpbots right (jumps around)
+H -> Helihead left (flying enemy that gets aggressive once you get close)
+h -> Helihead right (flying enemy that gets aggressive once you get close)
+S -> Springer left( Grog-like AI but goes wild when touched)
+s -> Springer left( Grog-like AI but goes wild when touched)
+E -> Eyesore Left(flying enemy that spews bullets when player is near)
+e -> Eyesore right(flying enemy that spews bullets when player is near)
+B -> Fire left(bouncing enemy)
+b -> Fire right(bouncing enemy)
+/ -> Nail bottom(a screw nail that moves up and down on a brick)
+\ -> Nail top(a screw nail that moves up and down on a brick)
+R -> Robats left( bat-like enemy similar to the megaman series. Spews bullets every now and then)
+r -> Robats left( bat-like enemy similar to the megaman series. Spews bullets every now and then)
+O -> Robox Horizontal( A hard to kill enemy that goes up and down)
+o -> Robox Vertical( A hard to kill enemy that goes left and right)
+T -> Screwgatling bottom( a screw enemy that spews bouncing bullets)
+t -> Screwgatling top( a screw enemy that spews bouncing bullets)
+Ö -> Watcher Up(an enemy that spews missile when it "sees" the player)
+Ü -> Watcher down(an enemy that spews missile when it "sees" the player)
+Æ -> Megaton Press( randomly falls down. Cannot be destroyed )
+D -> Drumbot Left(a stack of drums, can only be destroyed when hit in the eye)
+d -> Drumbot Right(a stack of drums, can only be destroyed when hit in the eye)
+ª -> Plasmo left(sticks to walls and cannot be destroyed. Faster than wallers)
+º -> Plasmo right(sticks to walls and cannot be destroyed. Faster than wallers)
+
+-SPECIAL-
+¶ -> Dialog triggers(prints a dialog box)
+ß -> Bomb powerup
+µ -> Dynamite powerup
+± -> Mine powerup
+ƒ -> Hp/Life powerup
+
+§ -> Warp points(warps to another stage or boss)
+Ç -> Checkpoints
+
+-BOSSES-
+? -> Boss Big Eye
+¥ -> Boss Gyrobot
+£ -> Boss Robbit
+¢ -> Boss Joker
